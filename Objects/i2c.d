@@ -7,4 +7,3 @@
 .\objects\i2c.o: C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
 .\objects\i2c.o: .\RTE\Device\MKL46Z256VLH4\system_MKL46Z4.h
 .\objects\i2c.o: i2c.h
-.\objects\i2c.o: delay.h

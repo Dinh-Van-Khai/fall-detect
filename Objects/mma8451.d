@@ -9,4 +9,3 @@
 .\objects\mma8451.o: i2c.h
 .\objects\mma8451.o: mma8451.h
 .\objects\mma8451.o: delay.h
-.\objects\mma8451.o: C:\Keil_v5\ARM\ARM_compiler_5.06v7\Bin\..\include\math.h

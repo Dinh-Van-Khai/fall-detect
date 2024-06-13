@@ -12,3 +12,4 @@
 .\objects\main.o: led.h
 .\objects\main.o: state.h
 .\objects\main.o: slcd.h
+.\objects\main.o: C:\Keil_v5\ARM\ARM_compiler_5.06v7\Bin\..\include\math.h

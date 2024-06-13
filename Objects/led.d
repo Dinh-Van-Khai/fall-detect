@@ -6,4 +6,3 @@
 .\objects\led.o: C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
 .\objects\led.o: C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
 .\objects\led.o: .\RTE\Device\MKL46Z256VLH4\system_MKL46Z4.h
-.\objects\led.o: delay.h

@@ -1,5 +1,4 @@
 #include "MKL46Z4.h"
-#include "delay.h"
 
 void LED_Init(void) {
 	//Clock
@@ -15,15 +14,4 @@ void LED_Init(void) {
 	PTE->PDDR |= 1<<29;
 	
 	PTE->PSOR |= 1<<29;
-}
-
-void LED_Active_Reset(void) {
-	PTD->PSOR |= 1 << 5;
-}
-
-void LED_Fall_Detected(void) {
-	PTE->PSOR |= 1<<29;
-	delay(250);
-	PTE->PCOR |= 1<<29;
-	delay(250);
 }
