@@ -1,0 +1,98 @@
+Dependencies for Project 'fall-detection', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_compiler_5.06v7
+F (.\main.c)(0x666ADA0D)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MKL46Z256VLH4-I.\RTE\_Target_1-IC:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khain\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLH4 -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\RTE\Device\MKL46Z256VLH4\MKL46Z4.h)(0x66683642)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARM_compiler_5.06v7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLH4\system_MKL46Z4.h)(0x66683642)
+I (i2c.h)(0x66683642)
+I (mma8451.h)(0x66683642)
+I (delay.h)(0x66683642)
+I (led.h)(0x66683642)
+I (state.h)(0x66683642)
+I (slcd.h)(0x66683642)
+F (.\i2c.h)(0x66683642)()
+F (.\i2c.c)(0x666ADA0D)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MKL46Z256VLH4-I.\RTE\_Target_1-IC:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khain\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLH4 -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (.\RTE\Device\MKL46Z256VLH4\MKL46Z4.h)(0x66683642)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARM_compiler_5.06v7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLH4\system_MKL46Z4.h)(0x66683642)
+I (i2c.h)(0x66683642)
+I (delay.h)(0x66683642)
+F (.\delay.c)(0x66683642)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MKL46Z256VLH4-I.\RTE\_Target_1-IC:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khain\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLH4 -D_RTE_-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (.\RTE\Device\MKL46Z256VLH4\MKL46Z4.h)(0x66683642)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARM_compiler_5.06v7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLH4\system_MKL46Z4.h)(0x66683642)
+I (delay.h)(0x66683642)
+F (.\delay.h)(0x66683642)()
+F (.\led.c)(0x666AD326)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MKL46Z256VLH4-I.\RTE\_Target_1-IC:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khain\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLH4 -D_RTE_-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\RTE\Device\MKL46Z256VLH4\MKL46Z4.h)(0x66683642)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARM_compiler_5.06v7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLH4\system_MKL46Z4.h)(0x66683642)
+I (delay.h)(0x66683642)
+F (.\led.h)(0x66683642)()
+F (.\slcd.c)(0x66683642)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MKL46Z256VLH4-I.\RTE\_Target_1-IC:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khain\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLH4 -D_RTE_-o .\objects\slcd.o --omf_browse .\objects\slcd.crf --depend .\objects\slcd.d)
+I (.\RTE\Device\MKL46Z256VLH4\MKL46Z4.h)(0x66683642)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARM_compiler_5.06v7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLH4\system_MKL46Z4.h)(0x66683642)
+I (slcd.h)(0x66683642)
+F (.\slcd.h)(0x66683642)()
+F (.\mma8451.c)(0x666ADA0D)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MKL46Z256VLH4-I.\RTE\_Target_1-IC:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khain\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLH4 -D_RTE_-o .\objects\mma8451.o --omf_browse .\objects\mma8451.crf --depend .\objects\mma8451.d)
+I (.\RTE\Device\MKL46Z256VLH4\MKL46Z4.h)(0x66683642)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARM_compiler_5.06v7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLH4\system_MKL46Z4.h)(0x66683642)
+I (i2c.h)(0x66683642)
+I (mma8451.h)(0x66683642)
+I (delay.h)(0x66683642)
+I (C:\Keil_v5\ARM\ARM_compiler_5.06v7\include\math.h)(0x5E8E4AD2)
+F (.\mma8451.h)(0x66683642)()
+F (.\state.c)(0x666ADA0D)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MKL46Z256VLH4-I.\RTE\_Target_1-IC:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khain\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLH4 -D_RTE_-o .\objects\state.o --omf_browse .\objects\state.crf --depend .\objects\state.d)
+I (.\RTE\Device\MKL46Z256VLH4\MKL46Z4.h)(0x66683642)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARM_compiler_5.06v7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLH4\system_MKL46Z4.h)(0x66683642)
+I (delay.h)(0x66683642)
+I (state.h)(0x66683642)
+F (.\state.h)(0x66683642)()
+F (RTE/Device/MKL46Z256VLH4/MKL46Z256xxx4_flash.scf)(0x66683642)()
+F (RTE/Device/MKL46Z256VLH4/MKL46Z256xxx4_ram.scf)(0x66683642)()
+F (RTE/Device/MKL46Z256VLH4/MKL46Z4.h)(0x66683642)()
+F (RTE/Device/MKL46Z256VLH4/MKL46Z4_features.h)(0x66683642)()
+F (RTE/Device/MKL46Z256VLH4/fsl_device_registers.h)(0x66683642)()
+F (RTE/Device/MKL46Z256VLH4/startup_MKL46Z4.s)(0x66683642)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\MKL46Z256VLH4-I.\RTE\_Target_1-IC:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khain\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "CPU_MKL46Z256VLH4 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_mkl46z4.lst --xref -o .\objects\startup_mkl46z4.o --depend .\objects\startup_mkl46z4.d)
+F (RTE/Device/MKL46Z256VLH4/system_MKL46Z4.c)(0x66683642)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MKL46Z256VLH4-I.\RTE\_Target_1-IC:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\khain\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLH4 -D_RTE_-o .\objects\system_mkl46z4.o --omf_browse .\objects\system_mkl46z4.crf --depend .\objects\system_mkl46z4.d)
+I (C:\Keil_v5\ARM\ARM_compiler_5.06v7\include\stdint.h)(0x5E8E4AD2)
+I (RTE/Device/MKL46Z256VLH4/fsl_device_registers.h)(0x66683642)
+I (RTE/Device/MKL46Z256VLH4/MKL46Z4.h)(0x66683642)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\khain\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (RTE/Device/MKL46Z256VLH4/system_MKL46Z4.h)(0x66683642)
+I (RTE/Device/MKL46Z256VLH4/MKL46Z4_features.h)(0x66683642)
+F (RTE/Device/MKL46Z256VLH4/system_MKL46Z4.h)(0x66683642)()
