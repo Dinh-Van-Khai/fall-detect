@@ -22,12 +22,10 @@ int main(void) {
 			case 0:
 				PTD->PSOR |= 1<<5;
 				PTE->PSOR |= 1<<29;
-				Systick_Stop();
 				break;
 			
 			case 1:
 				SLCD_WriteChar('0');
-				Systick_Init();
 				PTE->PSOR |= 1<<29;
 			
 				Accel data = MMA8451_Read();

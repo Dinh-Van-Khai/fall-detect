@@ -13,5 +13,6 @@ void LED_Init(void) {
 	PTD->PDDR |= 1<<5;
 	PTE->PDDR |= 1<<29;
 	
+	PTD->PSOR |= 1<<5;
 	PTE->PSOR |= 1<<29;
 }

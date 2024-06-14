@@ -5,12 +5,12 @@ volatile uint8_t state = 0;
 
 void EXTI_Init(void) {
 	//SW1
-	SIM->SCGC5 |= (1<<11); //Eable clock portC
+	SIM->SCGC5 |= (1<<11);	 //Eable clock portC
 	PORTC->PCR[3] |= (1<<8); //Alternative 1 (GPIO)
 	PORTC->PCR[3] |= (1<<0); //Internal pullup resistor is enabled
 	PORTC->PCR[3] |= (1<<1); //PE: Internal pullup or pulldown resistor is enabled
-	PORTC->PCR[3] |= (1<<17) | (1<<19); //IRCQ = 1010: Interupt on falling edge
-	PTC->PDDR &= (~(uint32_t)(1<<3)); //Input mode
+	PORTC->PCR[3] |= (1<<17) | (1<<19);	//IRCQ = 1010: Interupt on falling edge
+	PTC->PDDR &= (~(uint32_t)(1<<3));		//Input mode
 
 	//SW2
 	PORTC->PCR[12] |= (1<<8);

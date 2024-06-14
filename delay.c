@@ -3,7 +3,8 @@
 #include "state.h"
 
 volatile uint32_t msTick;
-volatile uint32_t LED_Tick;
+volatile uint32_t LED_Blue_Tick;
+volatile uint32_t LED_Red_Tick;
 
 void Systick_Init(void) {
 	SysTick->CTRL |= (1 << 0);
@@ -14,31 +15,27 @@ void Systick_Init(void) {
 	NVIC_SetPriority(SysTick_IRQn, 15);
 }
 
-void Systick_Stop(void) {
-	SysTick->CTRL &= ~((uint32_t)(1 << 0));
-}
-
 void SysTick_Handler(void) {
 	msTick++;
-	LED_Tick++;
-	if (state == 1) {
-		if (LED_Tick == 500) {	//500ms
-			PTD->PTOR |= 1 <<5;		//Toggle LED xanh
-			LED_Tick = 0;
+	
+	if (state == 1 || state == 2) {
+		if (LED_Blue_Tick < 500) LED_Blue_Tick++;
+		else {
+			PTD->PTOR |= 1 << 5;		//Toggle LED xanh
+			LED_Blue_Tick = 0;
 		}
-	} else if (state == 2) {
-		if (LED_Tick == 250) {	//250ms
-			PTE->PTOR |= 1 <<29;	//Toggle LED do
-		}
-		if (LED_Tick == 500) { 	//500ms
-			PTE->PTOR |= 1 <<29;	//Toggle LED do
-			PTD->PTOR |= 1 <<5;		//Toggle LED xanh
-			LED_Tick = 0;
+	}
+	
+	if (state == 2) {
+		if (LED_Red_Tick < 250) LED_Red_Tick++;
+		else {
+			PTE->PTOR |= 1 << 29;		//Toggle LED do
+			LED_Red_Tick = 0;
 		}
 	}
 }
 
 void delay(uint32_t tick) {
-	while (msTick < tick);
 	msTick = 0;
+	while (msTick < tick);
 }

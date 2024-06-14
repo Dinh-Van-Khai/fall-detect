@@ -2,17 +2,17 @@
 #include "i2c.h"
 
 void I2C_Init(void) {
-	SIM->CLKDIV1 |= (1u<<17) | (1u<<16); //bus clock is 24/3 = 8MHz
+	SIM->CLKDIV1 |= (1u<<17) | (1u<<16);	//bus clock is 24/3 = 8MHz
 
-	SIM->SCGC5 |= SIM_SCGC5_PORTE_MASK; //clock to PTE24 and PTE25 for I2C0
-	SIM->SCGC4 |= SIM_SCGC4_I2C0_MASK; //clock to I2C0
+	SIM->SCGC5 |= SIM_SCGC5_PORTE_MASK; 	//clock to PTE24 and PTE25 for I2C0
+	SIM->SCGC4 |= SIM_SCGC4_I2C0_MASK; 		//clock to I2C0
 
-	PORTE->PCR[24] |= ((1<<8) | (1<<10)) & (~(1<<9)); //alternative 5 - 101 for bits 10, 9 8 respectively
-	PORTE->PCR[25] |= ((1<<8) | (1<<10)) & (~(1<<9));
+	PORTE->PCR[24] |= 0x5 << 8;		//alternative 5 - 101 for MUX field
+	PORTE->PCR[25] |= 0x5 << 8;
 
-	I2C0->F = 0x80; //mult=2h ICR=00h
+	I2C0->F = 0x80;		//mult=2h ICR=00h
 
-	I2C0->C1 = 0xB0; //10110000 - module enable, interrupt disable, master, transmit,
+	I2C0->C1 = 0xB0;	//10110000 - module enable, interrupt disable, master, transmit,
 
 	//acknowledge bit sent,repeated start off, wake up off, DMA off
 	I2C0->C2 = 0x00;
